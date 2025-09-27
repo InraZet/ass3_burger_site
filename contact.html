@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Burger — Contact</title><link rel="stylesheet" href="stlyes.css">
+<style>
+  .contact-card{max-width:720px;margin:24px auto;padding:26px;border-radius:28px;border:2px solid rgba(27,122,87,.55);background:rgba(246,231,215,.9)}
+  .field{display:flex;flex-direction:column;gap:6px;margin:10px 0}
+  .field input,.field textarea{border:2px solid rgba(27,122,87,.45);padding:14px 16px;border-radius:14px;outline:none;font:inherit;background:white}
+  .field textarea{min-height:120px;resize:vertical}
+</style></head>
+<body>
+<header class="header"><div class="container navbar" role="navigation" aria-label="Primary">
+  <img src="mini burger vertical.png" alt="Burger logo" height="64">
+  <nav class="nav">
+    <a href="index.html">home</a>
+    <a href="menu.html">menu</a>
+    <a href="about.html">about us</a>
+    <a class="active" href="contact.html" aria-current="page">contact</a>
+  </nav>
+  <div class="promo">Combo week: Burger+fries +20% — Use code STACKED20</div></div>
+</header>
+<main class="container">
+  <section class="contact-card">
+    <h2 style="margin:0 0 10px 0">Contact us</h2>
+    <form onsubmit="event.preventDefault(); alert('Message sent (demo)');">
+      <div class="field"><label for="name">Name</label><input id="name" name="name" placeholder="Your name" required></div>
+      <div class="field"><label for="email">Phone or Email</label><input id="email" name="email" placeholder="+7 (___) ___-__-__ / example@mail.com" required></div>
+      <div class="field"><label for="message">Message</label><textarea id="message" name="message" placeholder="Type here..."></textarea></div>
+      <button class="btn btn-solid" type="submit">Send</button>
+    </form>
+  </section>
+</main>
+<footer class="site-footer"><div class="container row">
+  <img src="burger horizontal.png" alt="Burger logo horizontal" height="40">
+  <div class="small">77 Bökeykhan St., Astana 10000 · +7 747 747 77 44</div>
+</div></footer>
+</body></html>
