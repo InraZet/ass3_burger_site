@@ -125,3 +125,10 @@ body{
 }
 .card-title{ margin:6px 0 2px; font-weight:800; font-size:20px; color:#0F5A41; }
 .card-text{ margin:0 0 8px; color:#136645; font-size:14px; }
+
+.cards-row { justify-content:flex-start; flex-wrap:wrap; gap:28px; }
+.cards-row .card { flex:1 1 320px; max-width:360px; }
+
+@media (min-width:1100px){
+  .cards-row .card{ flex-basis: calc((100% - 56px)/3); max-width:none; }
+}
