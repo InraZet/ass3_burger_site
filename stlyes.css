@@ -123,3 +123,5 @@ body{
   .nav{ margin-top:0; }
   .promo{ align-self:auto; }
 }
+.card-title{ margin:6px 0 2px; font-weight:800; font-size:20px; color:#0F5A41; }
+.card-text{ margin:0 0 8px; color:#136645; font-size:14px; }
