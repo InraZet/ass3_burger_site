@@ -132,3 +132,7 @@ body{
 @media (min-width:1100px){
   .cards-row .card{ flex-basis: calc((100% - 56px)/3); max-width:none; }
 }
+
+.gall2{
+  display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:22px; margin-block:24px 12px;
+}
