@@ -133,6 +133,6 @@ body{
 }
 
 .gall2{
-  display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:22px; margin-block:24px 12px;
+  display:grid; grid-template-rows:repeat(3,minmax(0,1fr)); gap:22px; margin-block:24px 12px;
   .gall2 img{ width:50%; height:50%; object-fit:cover; display:block; }
 }
